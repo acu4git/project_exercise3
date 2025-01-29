@@ -1,0 +1,68 @@
+\documentclass{jlreq}
+
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{xcolor}
+
+\lstset{
+    language=Verilog, % 使用するプログラム言語を指定
+    basicstyle=\ttfamily\footnotesize, % フォントの指定
+    tabsize=4, % インデント幅
+    numbers=left, % 行番号を表示（必要な場合）
+    numberstyle=\tiny, % 行番号のスタイル
+    frame=single, % ソースコードを枠で囲む（必要な場合）
+    breaklines=true, % 長い行を自動的に折り返す
+    captionpos=t, % キャプションの位置を上にする
+    showstringspaces=false, % 文字列内のスペースを表示しない
+    keywordstyle=\color{blue}, % キーワードの色
+    commentstyle=\color{green}, % コメントの色
+    stringstyle=\color{red}, % 文字列の色
+}
+\renewcommand{\lstlistingname}{ソースコード}
+
+\numberwithin{equation}{section}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+\begin{document}
+
+\tableofcontents
+\clearpage
+
+\section{実験の目的}
+
+\section{実験器具}
+実験に用いた環境を以下に示す．
+\begin{description}
+  \item[PC] Inspiron 15 3535
+  \item[OS] Windows11
+  \item[CPU] AMD Ryzen 5 7530U with Radeon Graphics 2.00 GHz
+  \item[統合開発環境] Quartus Prime Lite Edition Version 20.1.1
+  \item[FPGAボード] Terasic DE1SoC
+\end{description}
+
+\section{理論}
+
+\section{演習の解答}
+
+\section{実習}
+
+\section{考察}
+
+\begin{thebibliography}{9}
+  \bibitem{exp_text} 布目 淳．プロジェクト実習Ⅲ 論理設計 実験テキスト．京都工芸繊維大学，2024年
+  \bibitem{user_manual} Terasic Technologics Inc.:  ``DE1-SoC User Manual V2.0.4'' Chapter3. Using the DE1-SoC Board, 2019
+\end{thebibliography}
+
+\end{document}
